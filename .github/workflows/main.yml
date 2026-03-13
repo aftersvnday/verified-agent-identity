@@ -3,8 +3,8 @@ name: Verify Human Identity
 on:
   workflow_dispatch:
     inputs:
-      agent_name:
-        description: 'aftersvnday''
+      agent_name : 
+        description: 'aftersvnday'
         required: true
         default: 'aftersvnday''
       agent_description:
